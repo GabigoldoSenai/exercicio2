@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de relatório | Exercício 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main">
+        <div id="form-container">
+            <h2>Gerador de relatório</h2>
+            <form class="form">
+                <h4>Candidato #<span id="personId">1</span></h4>
+                <label for="age">Idade:</label>
+                <input name="age" id="inAge" type="number" min="0" placeholder="ex.: 35">
+
+                <label for="genre">Gênero:</label>
+                <select name="genre" id="inGenre">
+                    <option selected value="">Selecione</option>
+                    <option value="F">Feminino</option>
+                    <option value="M">Masculino</option>
+                </select>
+
+                <label for="">Exp. de serviço</label>
+                <select name="expServico" id="inExpServico">
+                    <option selected value="">Selecione</option>
+                    <option value="S">Sim</option>
+                    <option value="N">Não</option>
+                </select>
+                
+                <button id="btnSubmit" type="button">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

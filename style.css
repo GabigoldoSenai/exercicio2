@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    min-width: 360px;
+    max-width: 80vw;
+    padding: 30px;
+    background-color: tomato;
+    border-radius: 10px;
+    border: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#btnSubmit{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
